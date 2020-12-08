@@ -9,14 +9,8 @@
     <h1>Exercice 1 Partie 6</h1>
 
     <?php
-    $name = "Max";
-    echo "Bonjour  $name  comment vas tu?";
+    $name = 'Max';
     ?>
-    <?php
-    $name = "Max";
-    echo "Bonjour ";
-    echo $name;
-    echo " comment vas tu?";
-    ?>
+    <?= 'Bonjour ' . $name . 'comment vas tu?'?>
 </body>
 </html>
